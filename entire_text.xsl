@@ -21,9 +21,13 @@
 	<sup><font size="-3" color="green">p.<xsl:value-of select="./@n" /></font></sup>
 </xsl:template>
 
-
 <xsl:template match="p">
 	<p><xsl:value-of select="." /></p>
 </xsl:template>
 
+<xsl:template match="verse">
+	<br /><xsl:value-of select="." />
+</xsl:template>
+
+	
 </xsl:stylesheet>
