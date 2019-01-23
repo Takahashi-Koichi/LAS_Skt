@@ -1,0 +1,403 @@
+﻿html,body{
+	height:100%;
+	min-height:100%;
+}
+
+body{
+	font-size:100%;
+	font-family:times,'ＭＳ 明朝',sans-serif;/*20151125阪大班より追加*/
+	line-height:1.8;
+	letter-spaceing:normal;
+	word-spacing:normal;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	width:809px;
+//	background:url(../foto/image_13.jpg);
+background-size:780px;
+background-positoin:left top;
+	background-attachment:fixed;
+	height:100%;
+}
+#news_letter{
+	background:url(../foto/top/image_1.jpg) left top repeat-y, url(../foto/top/image_5.jpg) right top repeat-y;
+	background-size:350px;
+	background-attachment:fixed;
+}
+#staff{
+	background:url(../foto/top/image_14.jpg) left top no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
+/*.wrap{
+	height:100%;
+	min-height:100%;
+}*/
+
+/*body > .wrap{
+height:auto;
+} */
+body.inner{
+	width:100%;
+	font-size:100%;
+}
+
+/*メインパート*/
+div.wrap{
+	height:100%;
+	min-height:100%;
+	padding-right:30px;
+	padding-left:30px;
+//	background-color:#FFFFE3;
+background-color:white;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+body > .wrap{
+	height:auto;
+}
+
+/*heading*/
+h1{
+font-family:'MS 明朝',serif;/*20151125阪大班より追加*/
+//	font-size:150%;
+}
+h2{
+font-family:'MS 明朝',serif;/*20151125阪大班より追加*/
+//	font-size:140%;
+}
+#dharma100{
+	color:red;
+}
+h3{
+	font-size:130%;
+}
+h4{
+	font-size:120%;
+}
+h5{
+	font-size:110%;
+}
+h6{
+	font-size:100%;
+}
+
+/*divisions*/
+div.title{
+height:100px;
+	width:809px;
+	background:url(../foto/title_pink_gr.jpg);
+}
+div.chapter_title{
+	font-size:180%;
+	font-weight:bold;
+	text-indent:20px;
+}
+div.section_title{
+	font-size:160%;
+	font-weight:bold;
+	text-indent:30px;
+}
+/*.wrap{
+	padding-right:30px;
+	padding-left:30px;
+	background-color:#FFFFE3;
+	margin-top:0px;
+	padding-top:0px;
+	padding-right:15px;
+	padding-left:15px;
+	padding-bottom:10px;
+} */
+.chapter{
+	padding-left:100px;
+	padding-right:100px;
+}
+.date{
+	text-align:right;
+}
+.menu{
+	width:900px;
+	height:50px;
+}
+#announcement{
+	margin-right:50px;
+	margin-left:50px;
+}
+.browser_info{
+	margin-left:20px;
+	font-size:90%;
+}
+.definition_head{
+	font-weight:bold;
+	font-size:180%;
+}
+.definition{
+	font-weight:bold;
+}
+.text_title{
+	font-weight:bold;
+}
+title{
+	color:pink;
+}
+.bottom{
+	background-color:#ffcccc;
+	width:809px;
+	height:30px;
+	margin-bottom:0px;
+}
+#all_equivalent{
+	width:1000px;
+}
+#menu_in_koza{
+	margin-left:20px;
+}
+.navi_def a{
+	background-color:pink;
+}
+#navi a{
+	text-decoration:none;
+}
+.navi a{
+	text-decoration:none;
+font-weight:bold;
+color:black;
+}
+.inner{
+//	background-color:#FFFFE3;
+background-color:white;
+}
+.text_search{
+	font-weight:bold;
+	font-size:120%;
+	font-style:italic;
+	color:orange;
+}
+.text_note{
+	font-weight:bold;
+	/*font-size:120%;*/
+	/*font-style:italic;*/
+	/*color:orange*/
+}
+.genre{
+	font-weight:bold;
+	font-size:110%;
+}
+#other_example{
+	font-size:110%;
+	color:orange;
+}
+.staff_info{
+	margin-top:30px;
+	margin-left:30px;
+}
+.team_name{
+	font-weight:bold;
+	font-size:120%;
+}
+.period{
+	text-indent:10px;
+}
+#btn div button.index{
+	color:blue;
+	font-weight:bold;
+	width:250px;
+border-style:none;
+}
+#btn div button.table{
+border-style:none;
+	color:blue;
+	font-weight:bold;
+	width:150px;
+}
+
+button.index:hover{
+	background-color:pink;
+}
+button.table:hover{
+	background-color:pink;
+}
+#dv{
+	/*text-align-last: justify;*/
+}
+
+/*paragraph*/
+p{
+	text-indent:1em;
+}
+.in_koza{
+	text-indent:1em;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:25px;
+	padding-right:25px;
+}
+p#foto_sanci{
+	margin:0px;
+	padding:0px;
+	text-align:right;
+	font-size:75%;
+}
+.attention{
+	color:purple;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+
+/*table*/
+table{
+	letter-spacing:0;
+	font-family:century,'ＭＳ ゴシック',sans-serif;
+	font-size:11pt;
+	margin-right:0em;
+	margin-left:0em;
+}/*20151125阪大班より追加*/
+th{
+	text-align:left;
+}
+td{
+	padding-right:10px;
+}
+#main a{
+	text-decoration:none;
+}
+
+ul#news{
+//	border:solid;
+	border-width:0.5px;
+	border-color:#990000;
+	height:200px;
+	margin-bottom:0px;
+}
+.staff_member{
+	margin-top:0.5px;
+}
+/*images*/
+img{
+	width:100%;
+}
+
+/*a*/
+a.navi:after{
+	content:" |";
+}
+a.switch{
+	background-color:lightblue;
+	border:outset;
+	border-color:skyblue;
+	border-width:2.8px;
+	text-decoration:none;
+	margin-right:5px;
+	margin-left:5px;
+	font-size:70%;
+	width:5px;
+}
+
+hr.half{
+	width:450px;
+	text-align:left;/*Mozilla,左寄席にならない*/
+	margin-left:0px;/*Mozilla,上記バグ対策*/
+}
+
+/*span*/
+span#copyright{
+	float:left;
+	margin-left:40px;
+}
+#address{
+	float:right;
+	margin-right:20px;
+}
+.editor_name:before{
+	content:"ed. by ";
+}
+.editor_name:after{
+	content:", ";
+}
+.date:after{
+/*	content:", ";*/
+	content:":";
+}
+.lang_bo{
+	font-style:italic;
+}
+.lang_sa{
+	font-style:italic;
+}
+.lang_zh:before{
+	content:"『";
+}
+.lang_zh:after{
+	content:"』";
+}
+span.navi:after{
+	content:"/";
+}
+span.renewal_info{
+	text-align:right;
+margin-right:0px;
+}
+span.switch{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+/*anchor*/
+a.navi:hover{
+	background-color:pink;
+	color:blue;
+}
+
+/*xmlタグ*/
+floatingText{
+	color:green;
+}
+quote{
+	counter-reset:note;
+}
+def{
+	counter-reset:note;
+}
+target{
+	text-decoration:blink;
+	counter-increment:note;
+}
+target:after{
+	content:counter(note)")";
+	color:blue;
+	text-decoration:underline;
+	font-size:60%;
+	vertical-align:super;
+}
+/*target:before{
+	content:"(" counter(note);
+	color:red;
+	font-size:60%;
+	vertical-align:super;
+} */
+target:hover{
+/*	color:#99ff00;*/
+color:red;
+	font-style:italic;
+	}
+translation{
+/*	color:red;*/
+}
+verse{
+	font-weight:bold;
+}
+
+term{
+	color:red;
+}
+term{
+	font-weight:bold;
+}/*20151125阪大班より追加*/
+
