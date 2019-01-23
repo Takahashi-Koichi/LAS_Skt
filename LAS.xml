@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="haha.xsl" ?>
+<?xml-stylesheet type="text/xsl" ?>
 <TEI>
 <head>
 <title>Laṅkāvatārasūtra</title>
@@ -10,7 +10,7 @@
 <pb n="1" />
 <lb n="1" />// laṅkāvatārasūtram//
 <p>
-<lb n="2" />oṃ namo ratnatryāya/ oṃ namaḥ sarvabuddhabodhisattvebhyaḥ//
+<lb n="2" />oṃ namo ratnatryāya/ oṃ namaḥ sarvabuddhabodhisa
 <lb n="3" />ttvebhyaḥ//
 </p>
 <verse><lb n="4" />nairātmyaṃ yatra dhrmāṇāṃ dharmarājena deśitam/</verse>
