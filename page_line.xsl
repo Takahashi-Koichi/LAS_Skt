@@ -14,16 +14,7 @@
 </xsl:template>
 
 <xsl:template match="lb">
-	<sup><font size="-3" color="red"><xsl:value-of select="./@n" /></font></sup>
-</xsl:template>
-
-<xsl:template match="pb">
-	<sup><font size="-3" color="green">p.<xsl:value-of select="./@n" /></font></sup>
-</xsl:template>
-
-
-<xsl:template match="lb">
-	<br /><xsl:value-of select="./@n" />
+	<br /><xsl:value-of select="./@n" />:
 </xsl:template>
 
 <xsl:template match="pb">
