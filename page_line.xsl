@@ -3,8 +3,7 @@
 <xsl:output method="html" encoding="utf-8" />
 <xsl:template match="/">
 	<html>
-		<body>
-    
+		<body>    
 		<p>
 			<xsl:apply-templates select="TEI/body" />
 		</p>
