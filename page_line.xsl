@@ -14,14 +14,7 @@
 </xsl:template>
 
 <xsl:template match="lb">
-	<xsl:choose>
-		<xsl:when test="./@=5">
-			<br /><xsl:value-of select="./@n" />&emsp;
-		</xsl:when>
-		<xsl:otherwise>
-			<br />&emsp;
-		</xsl:when>
-	</xsl:choose>
+	<br /><xsl:value-of select="./@n" />&emsp;
 </xsl:template>
 
 <xsl:template match="pb">
