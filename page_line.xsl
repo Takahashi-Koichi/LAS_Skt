@@ -23,11 +23,11 @@
 
 
 <xsl:template match="lb">
-	<br /><xsl:value-of select="." />
+	<br /><xsl:value-of select="@n" />
 </xsl:template>
 
 <xsl:template match="pb">
-	<br /><xsl:value-of select="." />
+	<br /><xsl:value-of select="@n" />
 </xsl:template>
 
 
