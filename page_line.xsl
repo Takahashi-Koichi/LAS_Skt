@@ -13,7 +13,7 @@
 </xsl:template>
 
 <xsl:template match="lb">
-	<br /><xsl:value-of select="./@n[.='5']" />:
+	<br /><xsl:value-of select="./@n[.='5']" />:&emsp;
 </xsl:template>
 
 <xsl:template match="pb">
