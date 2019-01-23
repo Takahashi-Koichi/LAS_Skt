@@ -13,7 +13,7 @@
 </xsl:template>
 
 <xsl:template match="lb">
-	<br /><xsl:value-of select="./@n" />:&emsp;
+	<br /><xsl:value-of select="./@n" />:
 </xsl:template>
 
 <xsl:template match="pb">
