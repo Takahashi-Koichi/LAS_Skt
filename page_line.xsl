@@ -14,7 +14,7 @@
 </xsl:template>
 
 <xsl:template match="lb">
-	<br /><xsl:value-of select="./@n" />:
+	<br /><xsl:value-of select="./@n[self::@n=5]" />:
 </xsl:template>
 
 <xsl:template match="pb">
