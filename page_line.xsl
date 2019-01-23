@@ -14,11 +14,11 @@
 </xsl:template>
 
 <xsl:template match="lb">
-	<br /><xsl:value-of select="./@n" />&emsp;
+	<br /><xsl:value-of select="./@n" />:
 </xsl:template>
 
 <xsl:template match="pb">
-	<br />p.<font color="red"><xsl:value-of select="./@n" /></font>
+	<br />p.<xsl:value-of select="./@n" />
 </xsl:template>
 
 </xsl:stylesheet>
