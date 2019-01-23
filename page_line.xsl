@@ -25,7 +25,7 @@
 </xsl:template>
 
 <xsl:template match="pb">
-	<br />p.<xsl:value-of select="./@n" />
+	<br />p.<font color="red"><xsl:value-of select="./@n" /></font>
 </xsl:template>
 
 </xsl:stylesheet>
