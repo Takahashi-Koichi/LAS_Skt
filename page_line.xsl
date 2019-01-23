@@ -16,10 +16,10 @@
 <xsl:template match="lb">
 	<xsl:choose>
 		<xsl:when test="./@=5">
-			<br /><xsl:value-of select="./@n" />:
+			<br /><xsl:value-of select="./@n" />&emsp;
 		</xsl:when>
 		<xsl:otherwise>
-			<br />
+			<br />&emsp;
 		</xsl:when>
 	</xsl:choose>
 </xsl:template>
