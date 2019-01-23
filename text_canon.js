@@ -35,6 +35,13 @@ function Init(){
 		xslObj01.send();
 		xslDoc01 = xslObj01.responseXML;
 
+		xslObj02 = new XMLHttpRequest();
+		xslObj02.open("GET","page_line.xsl",false);
+		xslObj02.setRequestHeader('Content-Type', 'text/xml');
+		xslObj02.overrideMimeType('text/xml');
+		xslObj02.send();
+		xslDoc02 = xslObj02.responseXML;
+		
 	}else{
 		//Internet Explorer
 		xmlDoc01=new ActiveXObject("MSXML2.DOMDocument");
@@ -46,6 +53,9 @@ function Init(){
 
 		xslDoc01.async=false;
 		xslDoc01.load("entire_text.xsl");
+
+		xslDoc02.async=false;
+		xslDoc02.load("page_line.xsl");
 	}
 //	ChangeImageGloss();
 }
@@ -61,6 +71,21 @@ function CallText(){
 	}else{
 		//Internet Explorer
 		str = xmlDoc01.transformNode(xslDoc01);
+		dv.innerHTML = str;
+	}
+}
+
+function CallTextPageLine(){
+	if(!isIE){
+		// Mozilla
+		xslProc = new XSLTProcessor();
+		xslProc.importStylesheet(xslDoc02);
+		var fragment = xslProc.transformToFragment(xmlDoc01, document);
+		document.getElementById('dv').innerHTML = "";
+		document.getElementById('dv').appendChild(fragment);
+	}else{
+		//Internet Explorer
+		str = xmlDoc01.transformNode(xslDoc02);
 		dv.innerHTML = str;
 	}
 }
