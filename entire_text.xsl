@@ -22,7 +22,7 @@
 </xsl:template>
 
 <xsl:template match="p">
-	<p><xsl:value-of select="translate(.,'-','')" /></p>
+	<p><xsl:value-of select="translate('.','-','')" /></p>
 	<!-- <xsl:value-of select="translate(.,'-','')" />  -->
 </xsl:template>
 
