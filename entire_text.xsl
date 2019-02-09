@@ -22,8 +22,8 @@
 </xsl:template>
 
 <xsl:template match="p">
-	<p><xsl:value-of select="." /></p>
-	<xsl:value-of select="translate(.,'-','')" />
+	<p><xsl:value-of select="translate(.,'-','')" /></p>
+	<!-- <xsl:value-of select="translate(.,'-','')" />  -->
 </xsl:template>
 
 <xsl:template match="verse">
