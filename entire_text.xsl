@@ -23,11 +23,11 @@
 
 <xsl:template match="p">
 	<p><xsl:value-of select="." /></p>
+	<xsl:value-of select="translate(.,'-','')" />
 </xsl:template>
 
 <xsl:template match="verse">
 	<br /><xsl:value-of select="." />
 </xsl:template>
-
 	
 </xsl:stylesheet>
